@@ -1,4 +1,4 @@
-print("Ejercicios 1")
+""" print("Ejercicios 1")
 import random
 
 # Obtener un número entero aleatorio del 1 al 10
@@ -27,3 +27,4 @@ sorteo = random.choice(nombres)
 
 # Mostrar el nombre escogido
 print("El nombre escogido es:", sorteo)
+ """
