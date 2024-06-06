@@ -1,6 +1,6 @@
 from os import system
 
-nombhre = input("Dime tu nombnre")
+nombre = input("Dime tu nombnre")
 
 edad= input("dime tu edad")
 
