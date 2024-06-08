@@ -64,5 +64,20 @@ Mascota.respirar()
 
 
 
-print("ejercicio 2")
+print("ejercicio 2") 
+class Jugador:
+    vivo = False
+    
+    @classmethod
+    def revivir(cls):
+        cls.vivo = True
+        
 print("ejercicio 3")
+
+
+class Personaje:
+    def __init__(self, cantidad_flechas):
+        self.cantidad_flechas = cantidad_flechas
+        
+    def lanzar_flecha(self):
+        self.cantidad_flechas = self.cantidad_flechas-1
