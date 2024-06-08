@@ -41,7 +41,7 @@ piolin = Pajaro(3, 'amarillo', 60)
 
 
 piolin.nacer()
-piolin.colar(100)
+piolin.volar(100)
 
 mi_animal = Animal(5, 'negro')
 mi_animal.nacer()
