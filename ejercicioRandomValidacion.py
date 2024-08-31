@@ -8,8 +8,8 @@ while True:
     
     if numRandom.isdigit():  #valida si esta compuesto por digitos 
         numRandom = int(numRandom)
-        if 1 <= numRandom <= 10:  
-            break
+        if 1 <= numRandom <= 10:  #revisar si esta en el rango 
+            break 
         else:
             print("El número debe estar entre 1 y 10.")
     else:
